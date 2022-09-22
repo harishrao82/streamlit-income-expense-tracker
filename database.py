@@ -6,7 +6,9 @@ from deta import Deta  # pip install deta
 DETA_KEY = st.secrets["DETA_KEY"]
 
 # Initialize with a project key
-deta = Deta(DETA_KEY)
+#deta = Deta(DETA_KEY)
+
+deta = 'QeZU3ZD3_Ue3rqfGGnJYVaXB71HErcV4LvyVvmXGj'
 
 # This is how to create/connect a database
 db = deta.Base("monthly_reports")
